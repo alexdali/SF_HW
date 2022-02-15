@@ -5,7 +5,7 @@
  * @param accountsId    collection of strings (Account ID)
  */
 
-public without sharing class AssignAccountTasksActiveUser {
+public with sharing class AssignAccountTasksActiveUser {
     @InvocableMethod(Label='Assigning Account Tasks to active User' Description='Assigning Account tasks  to active User' Category='Task')
     public static void assignAccountTasks (String[] accountsId) {
         Account[] accList = [SELECT Name,
