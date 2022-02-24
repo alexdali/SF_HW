@@ -6,26 +6,25 @@
  * s.	Run created class using DevConsole.
  */
 public class ForQueueableJobToUpdateContacts implements Queueable {
-    private List<Account> accList;
-    public ForQueueableJobToUpdateContacts(List<Account> records) {
-        this.accList = records;
-    }
     public void execute(QueueableContext context) {
-        // from the Account sobject list to get list of Id, in which BillingAddress is not empty
-        List<Id> accIdWithAddress = new List<Id>();
-        for(Account acc : accList) {
-            if(acc.BillingAddress != null) {
-                accIdWithAddress.add(acc.Id);
-            }
-        }
-        // update all related contacts with AccountId from accIdWithAddress
+        Integer limitCount = Limits.getLimitQueryRows() - Limits.getQueryRows();
+        // get Account list, in which BillingAddress is not empty
+        List<Account> accList = new List<Account>();
+        accList = [SELECT Id,
+                    (SELECT Id, Is_Synced__c, Processed_By_Queue__c
+                    FROM Contacts)
+                    FROM Account
+                    WHERE (BillingStreet != NULL OR BillingCity!= NULL
+                    OR BillingState!= NULL OR BillingPostalCode!= NULL)
+                    LIMIT :limitCount];
+        // update all related contacts
         List<Contact> contList = new List<Contact>();
-        for(Contact cont : [SELECT Id, Is_Synced__c, Processed_By_Future__c
-        FROM Contact
-        WHERE AccountId IN :accIdWithAddress]) {
-            cont.Is_Synced__c = false;
-            cont.Processed_By_Future__c = true;
-            contList.add(cont);
+        for (Account acc : accList) {
+            for (Contact cont : acc.Contacts) {
+                cont.Is_Synced__c = false;
+                cont.Processed_By_Queue__c = true;
+                contList.add(cont);
+            }
         }
         update contList;
     }
