@@ -1,12 +1,9 @@
 /**
- * Creating a new task object with the subject "Negotiation with {Account.Name}"
- * for accounts from the collection
- *
- * @param accountsId    collection of strings (Account ID)
+ * Created by dmina on 13.02.2022.
  */
 
-public with sharing class CreateTaskForAccount {
-    @InvocableMethod(Label='Create Task for Account' Description='Create Task for Account' Category='Task')
+public with sharing class CreateTaskForNewAccount {
+    @InvocableMethod(Label='Create Task for new Account' Description='Task for new Account' Category='Task')
     public static void createTaskForAccount (String[] accountsId) {
         Account[] accList = [SELECT Name FROM Account WHERE Account.Id IN :accountsId];
         Task[] tasksList = new List<Task>();
