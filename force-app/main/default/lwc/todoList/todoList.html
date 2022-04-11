@@ -1,0 +1,43 @@
+<template>
+    <lightning-card>
+        <div class="slds-card__body_inner">
+            <lightning-input type="search" onchange={handleSearchTermChange} variant="label-hidden"
+                class="slds-var-m-bottom_small slds-p-horizontal_large" label="Search" placeholder="Search for todos"
+                value={searchKey}>
+            </lightning-input>
+            <lightning-button onclick={handleBtnCreateClick} label="Create ToDo" class="slds-button slds-button_neutral slds-size_full"></lightning-button>
+            <!-- Start todo list -->
+            <!-- <template if:true={todos.data}> 111-->
+            <template if:true={wiredValue.data}>
+                <c-modal-item onclosedialog={modalClosed}>
+                    <span slot="modalName">{btnLabel}</span>
+                    <c-create-todo todo-id={todoId} btn-label={btnLabel} oncreatedtodo={handleModalOkClick} oncancelclick={handleModalCancelClick}
+                        slot="modalContent"></c-create-todo>
+                </c-modal-item>
+                <lightning-layout class="slds-grid slds-grid_vertical">
+                    <!-- <template for:each={todos.data} for:item="todo"> 111-->
+                    <template for:each={wiredValue.data} for:item="todo">
+                            <lightning-layout-item key={todo.Id} size="12"
+                            class="slds-p-top_small slds-p-horizontal_large" ontodoselect={handleTodoSelect}>
+                                <c-todo-item todo={todo} oneditselect={handleTodoEdit} ondeleteselect={handleTodoDelete}></c-todo-item>
+                            </lightning-layout-item>
+                    </template>
+                </lightning-layout>
+                <!-- No todos found -->
+                <template if:false={hasResults}>
+                    <div class="slds-align_absolute-center slds-var-m-vertical_small">
+                        Todos not found...
+                    </div>
+                </template>
+            </template>
+            <!-- End todo list -->
+            <!-- Data failed to load -->
+            <!-- <template if:true={todos.error}> 111-->
+            <template if:true={wiredValue.error}>
+                <div class="slds-text-color_error">
+                    An error occurred while loading the todo list
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

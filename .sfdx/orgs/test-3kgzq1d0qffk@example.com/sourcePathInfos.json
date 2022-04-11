@@ -1,0 +1,191 @@
+{
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app",
+    "isDirectory": true,
+    "modifiedTime": 1647343234678,
+    "changeTime": 1647343234678,
+    "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+    "state": "u",
+    "isArtifactRoot": true,
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main",
+    "isDirectory": true,
+    "modifiedTime": 1647343234679,
+    "changeTime": 1647343234679,
+    "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default",
+    "isDirectory": true,
+    "size": 4096,
+    "modifiedTime": 1647343234817,
+    "changeTime": 1647343234817,
+    "contentHash": "134fb9100108b9aaba9aee713cf235d514fd8f88",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/applications": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/applications",
+    "isDirectory": true,
+    "modifiedTime": 1647343234679,
+    "changeTime": 1647343234679,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/aura": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/aura",
+    "isDirectory": true,
+    "modifiedTime": 1647343234817,
+    "changeTime": 1647343234817,
+    "contentHash": "71c20a341bfe32aa5cd5b4384e94f942bab6a7d3",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/classes": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/classes",
+    "isDirectory": true,
+    "modifiedTime": 1647343234679,
+    "changeTime": 1647343234679,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/contentassets": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/contentassets",
+    "isDirectory": true,
+    "modifiedTime": 1647343234679,
+    "changeTime": 1647343234679,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/flexipages": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/flexipages",
+    "isDirectory": true,
+    "modifiedTime": 1647343234679,
+    "changeTime": 1647343234679,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/layouts": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/layouts",
+    "isDirectory": true,
+    "modifiedTime": 1647343234680,
+    "changeTime": 1647343234680,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc",
+    "isDirectory": true,
+    "size": 392,
+    "modifiedTime": 1647343778891,
+    "changeTime": 1647343778891,
+    "contentHash": "f4583d5a48808dcbf21a01302c79dec6aea5885b",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent",
+    "isDirectory": true,
+    "size": 456,
+    "modifiedTime": 1647343778893,
+    "changeTime": 1647343778893,
+    "contentHash": "35e618f5dfdafda9f1b94f5e031bbed9550ecf56",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent/myFirstWebComponent.html": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent/myFirstWebComponent.html",
+    "size": 311,
+    "modifiedTime": 1647344695822,
+    "changeTime": 1647344695822,
+    "contentHash": "a43fb12a9ec914993dfd7adc45b64a4e9a0fb9fb",
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "LightningComponentBundle"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent/myFirstWebComponent.js": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent/myFirstWebComponent.js",
+    "size": 471,
+    "modifiedTime": 1647344373057,
+    "changeTime": 1647344373057,
+    "contentHash": "386fe89755f621befc38ddd4694e956806b84ade",
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "LightningComponentBundle"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent/myFirstWebComponent.js-meta.xml": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/lwc/myFirstWebComponent/myFirstWebComponent.js-meta.xml",
+    "size": 365,
+    "modifiedTime": 1647343872395,
+    "changeTime": 1647343872395,
+    "contentHash": "1018ab7d7b7edb56dcf6e527f2b005296b185c2c",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "force-app",
+    "metadataType": "LightningComponentBundle"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/objects": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/objects",
+    "isDirectory": true,
+    "modifiedTime": 1647343234680,
+    "changeTime": 1647343234680,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/permissionsets": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/permissionsets",
+    "isDirectory": true,
+    "modifiedTime": 1647343234680,
+    "changeTime": 1647343234680,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/staticresources": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/staticresources",
+    "isDirectory": true,
+    "modifiedTime": 1647343234680,
+    "changeTime": 1647343234680,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/tabs": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/tabs",
+    "isDirectory": true,
+    "modifiedTime": 1647343234680,
+    "changeTime": 1647343234680,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/triggers": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead/force-app/main/default/triggers",
+    "isDirectory": true,
+    "modifiedTime": 1647343234680,
+    "changeTime": 1647343234680,
+    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "state": "u",
+    "package": "force-app"
+  },
+  "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead": {
+    "sourcePath": "/mnt/DATA/EPAM/SALESFORCE/vscode/HelloWorldLightningWebComponent/g/trailhead",
+    "isDirectory": true,
+    "size": 448,
+    "modifiedTime": 1647343242457,
+    "changeTime": 1647343242457,
+    "contentHash": "d8c2b2847a5fd4b9e26f8b11b26b6b3ef8ee74e7",
+    "state": "u",
+    "isWorkspace": true
+  }
+}

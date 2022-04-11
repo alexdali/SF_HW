@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="List ToDo"  icon-name="custom:custom63">
+        <div class="slds-card__body_inner">
+            <!-- <div class="slds-m-horizontal_large">
+                <lightning-radio-group label="ToDo Category"
+                options={options} value={value} type="button" onchange={handleChange}>
+                </lightning-radio-group>
+                <lightning-button onclick={handleBtnCreateClick} label="Add ToDo" class="slds-button slds-button_neutral"></lightning-button>
+            </div> -->
+            <div class="slds-grid slds-grid_align-spread slds-m-horizontal_large">
+                <lightning-radio-group options={options} value={value} type="button" onchange={handleChange}>
+                </lightning-radio-group>
+                <!-- <lightning-button label="Add ToDo" onclick={handleBtnCreateClick}
+                class="add-todo slds-button slds-button_neutral slds-p-around_none"></lightning-button> -->
+            </div>
+            <div class="c-container">
+                <c-todo-list category-list={categoryList} update-todos={updatedTodos}></c-todo-list>
+            </div>
+        </div>
+    </lightning-card>
+    <!-- <c-modal-item>
+        <span slot="modalName">Create ToDo</span>
+        <c-create-todo btn-label="Create ToDo" oncreatedtodo={handleModalOkClick} oncancelclick={handleModalCancelClick} slot="modalContent"></c-create-todo>
+    </c-modal-item> -->
+</template>
+

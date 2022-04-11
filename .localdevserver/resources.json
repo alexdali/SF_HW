@@ -1,0 +1,1380 @@
+{
+    "bda7479a4f": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "8c1ea2265e"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "4bbdffe1f7": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "1f84e6b2b2": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        },
+        "component://localdevserver/home@ru-RU": {
+            "dev": "c0efafa63a"
+        },
+        "component://c/contactCreator@ru-RU": {
+            "dev": "d07d5d3c2b"
+        }
+    },
+    "c718d2f0df": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/home@ru-RU": {
+            "dev": "c0efafa63a"
+        }
+    },
+    "6e2274d4a1": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/home@ru-RU": {
+            "dev": "c0efafa63a"
+        }
+    },
+    "e599b1ccb2": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/home@ru-RU": {
+            "dev": "c0efafa63a"
+        }
+    },
+    "96ced868f9": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/home@ru-RU": {
+            "dev": "c0efafa63a"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "4a6112445d"
+        }
+    },
+    "f0dc6614ef": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "4a6112445d"
+        }
+    },
+    "4de8aa0ab9": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "4a5579e3e8": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "c11cf25a34": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "235c0e459e": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "39e520b970": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "66643e0100": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "beed661bc1": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "16de82d60d": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "ed9c12534a": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "af5c3bd2b3": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "a7f2bd3aee": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "3a9d847568": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "4298f06450": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/eventWithData@ru-RU": {
+            "dev": "f390fa906d"
+        },
+        "component://c/contactListItem@ru-RU": {
+            "dev": "a183b525c7"
+        }
+    },
+    "3fac651dcd": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "28b974071b"
+        }
+    },
+    "529c7105d0": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "68d950529d"
+        }
+    },
+    "ac7064f741": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "5d7f234597"
+        }
+    },
+    "332c1a5ce9": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "87ada839a4"
+        }
+    },
+    "51ceb6cc2f": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "87ada839a4"
+        }
+    },
+    "d68da2beac": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "cddf87823d"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "68daf2e483": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "cddf87823d"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "1b98b33bcd": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "c447b52cc6"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "7ac0584608": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "e2b54aa749"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "0cf3408f63": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "321f5dc4bd"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "2498634a37": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "2c697f5caf"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "b7a0508317": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "2d4843d4de"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "03709b4fec": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "83540aac1d"
+        },
+        "component://c/errorPanel@ru-RU": {
+            "dev": ""
+        }
+    },
+    "e4d0b45bbd": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "2145d9f9d4"
+        }
+    },
+    "56cf6906fa": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "221bf947cf"
+        }
+    },
+    "7a54646dd9": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "4d3759c51c"
+        }
+    },
+    "229fad97fd": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "b52214654e"
+        }
+    },
+    "f16d2ecb9a": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "32e2bce752"
+        }
+    },
+    "1a54edf78e": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": ""
+        }
+    },
+    "35c6e0b89f": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": ""
+        }
+    },
+    "f022659e94": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": ""
+        }
+    },
+    "22fec68592": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "cc9d3d74e9"
+        }
+    },
+    "ab0508b67d": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "882277265d"
+        }
+    },
+    "cf16b47dbd": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "df1d724bc2"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "3b9f45615e": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "df1d724bc2"
+        }
+    },
+    "3171e495e7": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "3036f348b2"
+        }
+    },
+    "42ca5065ef": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "e9ea1c7437"
+        }
+    },
+    "c3c3e3879c": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": ""
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "ffe7c6fe14": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/contactList@ru-RU": {
+            "dev": "261738bdee"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "ed8a68296f"
+        },
+        "component://localdevserver/home@ru-RU": {
+            "dev": "c0efafa63a"
+        }
+    },
+    "c0cac359b1": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "ed8a68296f"
+        }
+    },
+    "ac4fbf6aec": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "ed8a68296f"
+        }
+    },
+    "db706e0e1a": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "676fe0b678"
+        }
+    },
+    "a8c734c137": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": ""
+        }
+    },
+    "fcd266a329": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "3165d468f0"
+        }
+    },
+    "5d64c95f67": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "f415a7aa4a"
+        }
+    },
+    "b1dd366894": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "50cd31d448"
+        }
+    },
+    "05f83e906b": {
+        "component://c/todoList@ru-RU": {
+            "dev": "0a24723716"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "eaefcbb932": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "144fd1b1c6"
+        }
+    },
+    "d168f53b29": {
+        "component://c/todoList@ru-RU": {
+            "dev": "5627cdc4bd"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "ff77ec859c": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1686a5bc51"
+        }
+    },
+    "61e1bc80ba": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1686a5bc51"
+        }
+    },
+    "8302d6cd73": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1686a5bc51"
+        }
+    },
+    "a49368bf0d": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1686a5bc51"
+        }
+    },
+    "de876a0974": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1686a5bc51"
+        }
+    },
+    "445d1ddb60": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1686a5bc51"
+        }
+    },
+    "1cf9f0a95b": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "03905bf872"
+        }
+    },
+    "1d2b84cf86": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "1fbe41d567"
+        }
+    },
+    "cb2490e210": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "3aede2c696"
+        }
+    },
+    "eaa4a36205": {
+        "component://c/todoList@ru-RU": {
+            "dev": "885b508383"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        },
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        }
+    },
+    "9ef37d96fe": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "885b508383"
+        }
+    },
+    "22239f07f4": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "885b508383"
+        }
+    },
+    "9ecb642d24": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "bd63d9c949"
+        },
+        "component://c/ldsUtils@ru-RU": {
+            "dev": "193a2cb44f"
+        }
+    },
+    "ff570f60e0": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "6e2341dd8a"
+        }
+    },
+    "9317420a90": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": ""
+        }
+    },
+    "2a46e60b38": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "7df952f661": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "f058ecd5ee": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "16f1620b29": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "944e0d91f0"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "12dab5bc03": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "f09e520b6b": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "96528dcfef": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "a1621326ec": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "09341c85bd"
+        }
+    },
+    "d82be2cf41": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "f2405087ae"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "034a0daa5a"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "8f77f31fc4": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "f2405087ae"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "d25fe4b72b"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "b815a16ddc": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "80cbfead39"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "d25fe4b72b"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "89feca832c": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "5ac4976be0"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "d25fe4b72b"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "b65b86b583": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "1ea0e326ff"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "d25fe4b72b"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "f3a62f9374": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "d25fe4b72b"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "6180425d31": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "f7016ccc2e"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "e9fffccf5c": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "28d988d7cf"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "3ed62a7e3f": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "40a85704a0"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "7880b6dc1a": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "a59e401fd9"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "da91e00035": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "80cfca6c24"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "8da0b176df": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "80cfca6c24"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "695c3b0ed0": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "1c3c9186a7"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "80cfca6c24"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "2052f212bb": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "87b80922db"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "80cfca6c24"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    },
+    "315373eca4": {
+        "component://@webruntime/app@ru-RU": {
+            "dev": "441b918bea"
+        },
+        "component://localdevserver/preview@ru-RU": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/todoApp@ru-RU": {
+            "dev": "518442f012"
+        },
+        "component://c/todoList@ru-RU": {
+            "dev": "78a249f0ca"
+        },
+        "component://c/modalItem@ru-RU": {
+            "dev": "dae36a3c26"
+        },
+        "component://c/todoItem@ru-RU": {
+            "dev": "80cfca6c24"
+        },
+        "component://c/createTodo@ru-RU": {
+            "dev": "e020a00d56"
+        }
+    }
+}

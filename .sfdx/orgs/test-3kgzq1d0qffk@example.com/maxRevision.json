@@ -1,0 +1,29 @@
+{
+  "serverMaxRevisionCounter": 4,
+  "sourceMembers": {
+    "LightningComponentBundle__myFirstWebComponent": {
+      "serverRevisionCounter": 1,
+      "lastRetrievedFromServer": 1,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__myFirstWebComponent/myFirstWebComponent.html": {
+      "serverRevisionCounter": 2,
+      "lastRetrievedFromServer": 2,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__myFirstWebComponent/myFirstWebComponent.js": {
+      "serverRevisionCounter": 3,
+      "lastRetrievedFromServer": 3,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__myFirstWebComponent/myFirstWebComponent.js-meta.xml": {
+      "serverRevisionCounter": 4,
+      "lastRetrievedFromServer": 4,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    }
+  }
+}

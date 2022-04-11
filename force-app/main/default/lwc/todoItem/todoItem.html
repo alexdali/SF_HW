@@ -1,0 +1,42 @@
+<template>
+    <lightning-card title={todo.Name} class="todo-card"  onclick={handleSelect}>
+        <div slot="actions">
+            <lightning-button-icon icon-name="utility:edit"
+            icon-class="slds-m-left_xx-small" variant="border-filled"
+                alternative-text="Edit record" onclick={handleEditClick}>
+            </lightning-button-icon>
+            <lightning-button-icon icon-name="utility:delete"
+            icon-class="slds-m-left_xx-small" variant="border-filled" alternative-text="Delete record"
+                onclick={handleDeleteClick}>
+            </lightning-button-icon>
+        </div>
+        <div class="todo-card-body slds-m-vertical_none">
+            <div class="slds-tile">
+                <h3 class="slds-tile__title slds-border_bottom
+                slds-text-heading_small slds-m-bottom_xx-small" title="Description">
+                    {todo.Description__c}
+                </h3>
+                <div class="slds-tile__detail slds-m-top_xx-small slds-m-bottom_none">
+                    <dl class="slds-list_horizontal slds-m-bottom_none slds-text-body_small">
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Priority">Priority:</dt>
+                        <dd class="slds-item_detail slds-truncate" title={todo.Priority__c}>{todo.Priority__c}
+                        </dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Category">Category:</dt>
+                        <dd class="slds-item_detail slds-truncate" title={todo.Category__c}>
+                            {todo.Category__c}
+                        </dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Status">Status:</dt>
+                        <dd class="slds-item_detail slds-truncate" title={todo.Is_Done__c}>
+                            <lightning-input type="checkbox" label="Is Done" name="input3" checked={todo.Is_Done__c} disabled></lightning-input>
+                        </dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Created Date">Created Date:</dt>
+                        <dd class="slds-item_detail slds-truncate" title={todo.CreatedDate}>
+                            <lightning-formatted-date-time
+                            value={todo.CreatedDate}></lightning-formatted-date-time>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
