@@ -1,6 +1,7 @@
 import { api, LightningElement } from 'lwc';
 import { deleteRecord } from 'lightning/uiRecordApi';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
+import { setColorByCategory } from 'c/ldsUtils';
 
 export default class TodoItem extends LightningElement {
     @api todo;
@@ -10,19 +11,14 @@ export default class TodoItem extends LightningElement {
         this.setColor();
     }
 
+
     setColor() {
-        const itemCard = this.template.querySelector('lightning-card');
-        const category = this.todo.Category__c;
-        if (category == 'Today') {
-            itemCard.classList.add("brown-border");;
-        }
-        if (category == 'Tomorrow') {
-            itemCard.classList.add("green-border");;
-        }
-        if (category == 'Later') {
-            itemCard.classList.add("blue-border");;
+        const itemCard = this.template.querySelector('lightning-card.todo-card');
+        if (this.todo != null && itemCard != null) {
+            setColorByCategory(itemCard, this.todo.Category__c)
         }
     }
+
 
     handleSelect(event) {
         event.preventDefault();
@@ -34,15 +30,13 @@ export default class TodoItem extends LightningElement {
 
     handleEditClick() {
         this.setColor();
-        // console.log('todoItem handleEditRecordClick this.todo: ', JSON.stringify(this.todo));
-        const selectEvent = new CustomEvent('editselect', {
+        const editEvent = new CustomEvent('editselect', {
             detail: this.todo.Id
         });
-        this.dispatchEvent(selectEvent);
+        this.dispatchEvent(editEvent);
     }
-    // @track error;
+
     handleDeleteClick(event) {
-        console.log('todoItem handleDeleteClick this.todo.Id: ', this.todo.Id);
         event.preventDefault();
         deleteRecord(this.todo.Id)
             .then(() => {

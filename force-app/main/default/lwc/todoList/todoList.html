@@ -7,7 +7,6 @@
             </lightning-input>
             <lightning-button onclick={handleBtnCreateClick} label="Create ToDo" class="slds-button slds-button_neutral slds-size_full"></lightning-button>
             <!-- Start todo list -->
-            <!-- <template if:true={todos.data}> 111-->
             <template if:true={wiredValue.data}>
                 <c-modal-item onclosedialog={modalClosed}>
                     <span slot="modalName">{btnLabel}</span>
@@ -15,7 +14,6 @@
                         slot="modalContent"></c-create-todo>
                 </c-modal-item>
                 <lightning-layout class="slds-grid slds-grid_vertical">
-                    <!-- <template for:each={todos.data} for:item="todo"> 111-->
                     <template for:each={wiredValue.data} for:item="todo">
                             <lightning-layout-item key={todo.Id} size="12"
                             class="slds-p-top_small slds-p-horizontal_large" ontodoselect={handleTodoSelect}>
@@ -32,7 +30,6 @@
             </template>
             <!-- End todo list -->
             <!-- Data failed to load -->
-            <!-- <template if:true={todos.error}> 111-->
             <template if:true={wiredValue.error}>
                 <div class="slds-text-color_error">
                     An error occurred while loading the todo list

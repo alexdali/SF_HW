@@ -9,12 +9,12 @@ export default class ModalItem extends LightningElement {
 
     @api show() {
         this.showModal = true;
-        console.log('show this.showModal: ', this.showModal);
+        // console.log('show this.showModal: ', this.showModal);
     }
 
     @api hide() {
         this.showModal = false;
-        console.log('hide this.showModal: ', this.showModal);
+        // console.log('hide this.showModal: ', this.showModal);
     }
 
     handleClick(event) {
@@ -23,7 +23,6 @@ export default class ModalItem extends LightningElement {
         this.showModal = false;
     }
     handleCancelClickP(event) {
-        // console.log('modalItem handleCancelClickP');
         this.hide();
     }
     handleDialogClose() {

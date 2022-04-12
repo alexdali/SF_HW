@@ -25,43 +25,28 @@ export default class TodoList extends LightningElement {
     updateFlag;
     wiredValue;
 
-    // @wire(findTodos, { searchKey: '$searchKey', categoryList: '$categoryList', update: '$updateFlag' })
-    // todos;
-    @wire(findTodos, { searchKey: '$searchKey', categoryList: '$categoryList', update: '$updateFlag' })
+
+    @wire(findTodos, { searchKey: '$searchKey', categoryList: '$categoryList', updateFlag: '$updateFlag' })
     wiredTodos(value) {
-        console.log('todoList wiredTodos value: ', JSON.stringify(value));
-        console.log('todoList wiredTodos this.todos: ', JSON.stringify(this.todos));
         this.wiredValue = value;
         const { data, error } = value;
         if (error) {
-            console.log('todoList wiredTodos error: ', JSON.stringify(error));
             this.error = error;
             // this.dispatchToast(error);
         } else if (data) {
-            console.log('todoList wiredTodos data: ', JSON.stringify(data));
-            console.log('todoList wiredTodos this.todos: ', JSON.stringify(this.todos));
+            this.todos = data;
         }
     }
 
-    // @api
+
     set updateTodos(value) {
-        console.log('todoList before set updateTodos this.updateFlag: ' + this.updateFlag);
-        console.log('todoList set updateTodos value: ' + value);
         this.updateFlag = value;
-        // this.updateFlag = !this.updateFlag;
-        console.log('todoList after set updateTodos this.updateFlag: ' + this.updateFlag);
         refreshApex(this.wiredValue);
-        console.log('todoList after refresh set updateTodos this.updateFlag: ' + this.updateFlag);
     }
 
     @api
     get updateTodos() {
         return this.updateFlag;
-    }
-
-    renderedCallback() {
-        console.log('todoList renderedCallback categoryList: ' + JSON.stringify(this.categoryList));
-        console.log('todoList renderedCallback updateFlag: ' + this.updateFlag);
     }
 
     @wire(MessageContext)
@@ -78,7 +63,6 @@ export default class TodoList extends LightningElement {
 
     // Handler for message received by component
     handleMessage(message) {
-        console.log('todoList handleMessage message: ', JSON.stringify(message));
         refreshApex(this.wiredValue);
     }
 
@@ -89,7 +73,6 @@ export default class TodoList extends LightningElement {
 
     // Respond to UI event by publishing message
     handleTodoSelect(event) {
-        console.log('todoList handleTodoSelect event: ', JSON.stringify(event));
         const payload = { recordId: event.target.todo.Id };
         publish(this.messageContext, RECORD_SELECTED_CHANNEL, payload);
     }
@@ -104,21 +87,17 @@ export default class TodoList extends LightningElement {
     }
 
     handleTodoEdit(event) {
-        // Get todo record id from event
         const recordId = event.detail;
-        console.log('todoList handleTodoEdit recordId: ', recordId);
         this.todoId = recordId;
         this.create = true;
         this.btnLabel = "Update ToDo";
-        console.log('todolist handleTodoEdit this.todoId: ', this.todoId);
         this.template.querySelector('c-modal-item').show();
-        const payload = { recordId: event.target.todoId };
+        const payload = { recordId: event.detail };
         publish(this.messageContext, RECORD_SELECTED_CHANNEL, payload);
     }
 
     handleTodoDelete(event) {
         const recordId = event.detail;
-        console.log('todoList handleTodoDelete recordId: ', recordId);
         refreshApex(this.wiredValue);
         const payload = { recordId: null, action: 'delete' };
         publish(this.messageContext, RECORD_SELECTED_CHANNEL, payload);
@@ -128,24 +107,29 @@ export default class TodoList extends LightningElement {
         this.todoId = null;
         this.create = true;
         this.btnLabel = "Create ToDo";
-        console.log('todolist handleBtnCreateClick this.todoId: ', this.todoId);
         this.template.querySelector('c-modal-item').show();
     }
 
     handleModalOkClick(event) {
-        refreshApex(this.wiredValue);
-        console.log('todolist handleModalOkClick: ', JSON.stringify(event));
         if (event.detail) {
             this.create = false;
             this.template.querySelector('c-modal-item').hide();
             const payload = { recordId: event.detail };
             publish(this.messageContext, RECORD_SELECTED_CHANNEL, payload);
+            // Send creation or update event from child component in transit to higher-level component
+            this.dispatchEvent(
+                new CustomEvent(
+                    'todoupsert',
+                    { detail: event.detail }
+                ),
+            );
+            this.updateFlag = !this.updateFlag;
+            refreshApex(this.wiredValue);
         }
     }
 
 
     handleModalCancelClick() {
-        console.log('todoList handleModalCancelClick');
         const modal = this.template.querySelector('c-modal-item');
         modal.hide();
     }

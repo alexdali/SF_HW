@@ -18,16 +18,7 @@ export default class CreateTodo extends LightningElement {
     @api btnLabel;
 
 
-    connectedCallback() {
-        console.log('createTodo connectedCallback todoId: ' + this.todoId);
-    }
-    renderedCallback() {
-        console.log('createTodo renderedCallback todoId: ' + this.todoId);
-    }
-
     handleSuccess(event) {
-        console.log('createTodo handleSuccess onsuccess event');
-        console.log('createTodo handleSuccess onsuccess event.detail.id: ' + JSON.stringify(event.detail.id));
         this.dispatchEvent(
             new CustomEvent(
                 'createdtodo',
@@ -36,7 +27,6 @@ export default class CreateTodo extends LightningElement {
         );
     }
     handleError(event) {
-        console.log('createTodo onerror event: ' + JSON.stringify(event));
         this.dispatchEvent(
             new ShowToastEvent({
                 title: 'Error creating record',
@@ -46,7 +36,6 @@ export default class CreateTodo extends LightningElement {
         );
     }
     handleBtnCancel(event) {
-        console.log('createTodo onclick on button: handleBtnCancel');
         this.dispatchEvent(
             new CustomEvent(
                 'cancelclick',

@@ -26,10 +26,7 @@ public with sharing class TodoController {
     @AuraEnabled(cacheable=true)
     public static List<ToDo__c> findTodos(String searchKey, List<String> categoryList, Boolean updateFlag) {
         List<ToDo__c> findList = new List<ToDo__c>();
-        System.debug('findTodos (searchKey.trim()!="" && searchKey.trim()!=null): ' + searchKey.trim()!='' && searchKey.trim()!=null);
-        System.debug('findTodos searchKey: ' + searchKey);
-        System.debug('findTodos categoryList: ' + categoryList);
-        System.debug('findTodos updateFlag: ' + updateFlag);
+
         String key = '%' + searchKey + '%';
         findList = [
             SELECT Id, Name,
@@ -38,10 +35,9 @@ public with sharing class TodoController {
             WHERE Name LIKE :key
             AND Category__c IN :categoryList
             WITH SECURITY_ENFORCED
-            ORDER BY CreatedDate DESC
-            LIMIT 10
+            ORDER BY LastModifiedDate DESC
         ];
-        System.debug('findTodos findList: ' + findList);
+
         return findList;
     }
 
@@ -62,8 +58,7 @@ public with sharing class TodoController {
             LIMIT 1
         ];
         ToDo__c res = (findList.size()>0) ? findList[0] : null;
-        System.debug('getSingleTodo res: ' + res);
-        // return (findList.size()>0) ? findList[0] : null;
+
         return res;
     }
 
